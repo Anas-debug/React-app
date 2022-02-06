@@ -1,0 +1,22 @@
+body{
+    background-color: turquoise;
+    font-family: sans-serif;
+}
+nav > ul{
+    display: flex;
+    flex-direction: row;
+}
+nav> ul >li {
+    list-style: none;
+    flex-direction: row;
+    padding: 20px;
+    border: solid orange;
+    background-color: azure;
+}
+ul > li:hover{
+    background-color: aquamarine;
+}
+.nav-list {
+    list-style: circle;
+    color: white;
+}
