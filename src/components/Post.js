@@ -1,11 +1,11 @@
 import React from 'react';
 
 
-export default function Post(title, content){
+export default function Post(props){
     return(
         <article>
-            <h1>{title}</h1>
-            <p>{content}</p>
+            <h1>{props.title}</h1>
+            <p>{props.content}</p>
         </article>
     )
 }
